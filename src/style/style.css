@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: linear-gradient(0deg, #292e49 0%, #536976 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+h1 {
+  color: #fff;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.descr {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+.play {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 48px;
+}
+.input,
+.btn {
+  width: 127px;
+  height: 48px;
+  background: rgba(41, 46, 73, 0.2);
+  border-radius: 8px;
+  border: 1px solid #292e49;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  transparent: 50%;
+}
+.btn {
+  background: rgba(41, 46, 73, 0.6);
+}
+.answer {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+.d-none {
+  display: none;
+}
+.repeatGameBtn {
+  width: 183px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #292e49;
+  background: rgba(41, 46, 73, 0.6);
+  margin: 48px auto 0;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+.count {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 43px;
+}
+.counter {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+}
+@media (max-width: 550px) {
+  .descr {
+    max-width: 265px;
+    margin: 12px auto;
+  }
+}
